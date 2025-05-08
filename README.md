@@ -1,12 +1,14 @@
 # Desafio 6
 # Exercicio 1
+```java
     int n; 
     n = 100;
     while (n >= -100) {
     System.out.println(n);
     n--;
-  
+  ```
  # Exercicio 2
+```java
         int numero, soma;
         numero = 1;
         soma = 0;
@@ -21,8 +23,9 @@
     
     }
     }
-
+```
 # Exercicio 3
+```java
     int n, soma;
     soma = 0; 
     n = 1;
@@ -33,8 +36,9 @@
     }
     n++;
     System.out.println("Soma dos números pares: "+soma);
-
+```
 # Exercicio 4
+```java
     int numero,fatorial, x; 
     Scanner ler = new Scanner(System.in); 
     fatorial = 1;
@@ -48,8 +52,9 @@
     do{ fatorial *= x; x++;
     } while(x<=numero); 
     System.out.println("O fatorial de " + numero + " é: " + fatorial);
-
+```
 # Exercicio 5 
+```java
     int chute, nSorte; 
     Scanner ler = new Scanner(System.in); 
     nSorte = (int) (Math.random() * 100) + 1; 
@@ -64,8 +69,9 @@
     System.out.println("Parabéns! Você acertou!");
     }
     } while (chute != nSorte);
-
+```
 # Exercicio 6
+```java
     int numero, inicio, fim, x;
      Scanner ler = new Scanner(System.in);
     System.out.println("Digite o número que deseja ver a tabuada: "); 
@@ -77,8 +83,9 @@
     System.out.println("Tabuada do " + numero + " de " + inicio + " até " + fim); 
     for ( x = inicio; x <= fim; x++) { 
     System.out.println(numero + " x " + x + " = " + (numero * x));
-
+```
 # Exercicio 7
+```java
     int soma, x; 
     soma = 0;
     for (x = 1; x <= 200; x++) { 
@@ -87,3 +94,4 @@
     }
     } 
     System.out.println("A soma dos números ímpares de 1 a 200 é: "+soma);
+```
